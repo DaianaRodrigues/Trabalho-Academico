@@ -1,0 +1,169 @@
+body{ 
+margin: 0;
+background-image: linear-gradient(#bfa2db,#f0d9ff);
+} 
+
+.box{ 
+margin: 0;
+background-color:rgb(54, 47, 47); 
+width: 100%; 
+position: fixed;
+} 
+
+.box_cabecalho{ 
+display: flex; 
+justify-content: space-between; 
+margin: 0 10% 0 10%; 
+} 
+
+.box_cabecalho-titulo{
+font-size: 30px;
+color:#f0bcbe;
+} 
+
+.box_cabecalho_nav_lista_ul{ 
+margin: 5% 0 0 0;
+display: flex; 
+list-style-type: none;
+} 
+
+.box_cabecalho_nav_lista_li{
+font-size: 20px;
+color: black; 
+padding: 10px;
+}
+
+.bnt{
+background-color:#f0bcbe;		
+padding: 5px 10px;
+border:none;
+text-align:center;
+text-decoration:blink;
+border-style:outset;
+border-radius:15px;
+}
+
+.bca{
+background-color:#f0bcbe;		
+padding: 5px 10px;
+border:none;
+text-align:center;
+text-decoration:blink;
+border-style:outset;
+border-radius:15px;
+}
+
+.fotodecapa{
+width:100%;
+}
+
+main{
+margin: 5% 10% 10% 10%;
+}
+
+.mec-fotodefundo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mec-foto{
+width: 20%;
+height: 20%;
+}
+
+.mulher-foto{
+width: 30%;
+height: 30%;
+}
+
+.bonequinho-foto{
+width: 15%;
+height: 15%;
+}
+
+.p{
+margin: 0;
+padding: 0;
+width: px;
+max-width: ;
+}
+
+.engenharia-foto{
+width: 400px; 
+margin: 0 0 0 10%;
+max-width: 400px;
+}
+
+.corpo-engenharia{
+display:flex;
+flex-direction:row-reverse;
+text-align: center;
+margin: 10% 10% 15% 10%;
+}
+
+.engenharia_titulo, p{
+text-align:center;
+color:black;
+padding: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.sessao_img{
+width: 50%;
+}
+
+.sessa-tecnologia{
+display:flex;
+}
+
+.sessao_conteudo-texto-titulo, p{
+text-align:center;
+color:black;
+padding:30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo_conteudo{
+margin: 15% 0 10% 15%;
+display:flex;
+flex-direction:row-reverse;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.sessao_conteudo-img-2{
+width: 50%;
+}
+
+.sessao_conteudo-texto-titulo4, p{
+text-align:center;
+color:black;
+padding:30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.corpo_conteudo3{
+display:flex;
+text-align: center;
+margin: 0 10% 10% 15%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.design-foto1{
+width:50%;
+height: 50%;
+}
+
+.design-texto, p{
+text-align: center;
+color:black;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+display: flex;
+justify-content: space-around;
+width: 94,5%;
+background-color: #3a3845;
+color:white;
+padding:40px ;
+}
